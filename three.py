@@ -33,3 +33,13 @@ elif answer == 'weak':
     print('Your weak password is ',generateWeakPassword())
 else:
     print('ERROR, you have typed a wrong word, please try again typing "strong" or "weak"')
+    
+    
+    
+#2nd type
+import random
+
+s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+passlen = 8
+p =  "".join(random.sample(s,passlen ))
+print (p)
